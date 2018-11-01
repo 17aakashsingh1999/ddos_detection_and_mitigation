@@ -18,8 +18,8 @@ class VanEmdeTree:
 			self.summary = VanEmdeTree(u_root(self.u))
 			self.cluster = [VanEmdeTree(l_root(self.u)) for _ in range(u_root(self.u))]
 
-	#def __str__(self):
-	#	return f"u: {self.u}, min: {self.min}, max: {self.max}"
+	def __str__(self):
+		return f"u: {self.u}, min: {self.min}, max: {self.max}"
 
 	def high(self,x):  #perfect
 		return floor(x/l_root(self.u))
@@ -95,7 +95,7 @@ class VanEmdeTree:
 		self.max = x
 		self.min = x
 
-	def insert(self,x):  #perfect
+	'''def insert(self,x):  #perfect
 		if self.min == None:
 			self.empty_insert(x)
 		elif x < self.min:
@@ -107,9 +107,24 @@ class VanEmdeTree:
 			else:
 				self.cluster[self.high(x)].insert(self.low(x))
 		if x > self.max:
+			self.max = x'''
+	def insert(self,x):  #perfect
+		if self.min == None:
+			self.empty_insert(x)
+		else:
+			if x < self.min:
+				self.min, x = x, self.min
+			if self.u > 2:
+				if self.cluster[self.high(x)].minimum() == None:
+					self.cluster[self.high(x)].empty_insert(self.low(x))
+					self.summary.insert(self.high(x))
+				else:
+					self.cluster[self.high(x)].insert(self.low(x))
+		if x > self.max:
 			self.max = x
 
-	def delete(self,x):
+
+	def delete(self,x):  #perfect
 		if self.min == self.max:
 			self.min = None
 			self.max = None
@@ -119,7 +134,7 @@ class VanEmdeTree:
 			else:
 				self.min = 0
 			self.max = self.min
-		else:	
+		else:
 			if x == self.min:
 				first_cluster = self.summary.minimum()
 				x = self.index(first_cluster,self.cluster[first_cluster].minimum())
@@ -134,4 +149,5 @@ class VanEmdeTree:
 					else:
 						self.max = self.index(summary_max,self.cluster[summary_max].maximum())
 			else:
-				self.max = self.index(self.high(x),self.cluster[self.high(x)].maximum())
+				if x == self.max:
+					self.max = self.index(self.high(x),self.cluster[self.high(x)].maximum())
