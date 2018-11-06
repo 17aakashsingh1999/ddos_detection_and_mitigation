@@ -26,6 +26,15 @@ class VanEmdeTreeSat(VanEmdeTree):
 		else:
 			return x % l_root(self.u)
 
+	def high(self,x):  #perfect
+		if type(x) == veb_Node:
+			return Node(floor(x/l_root(self.u)),x.get_sat())
+		else:
+			return floor(x/l_root(self.u))
+
+	def index(self,x,y):  #perfect
+		return x * l_root(self.u) + y
+
 	def put(self,i,sat):
 		super().insert(Node(i,sat))
 
@@ -38,3 +47,34 @@ class VanEmdeTreeSat(VanEmdeTree):
 			return self.cluster[self.high(x)].get(self.low(x))
 		else:
 			return None
+
+	def delete(self,x):  #perfect
+		if self.min == self.max:
+			self.min = None
+			self.max = None
+		elif self.u == 2:
+			if x == 0:
+				self.min = 1
+			else:
+				self.min = 0
+			self.max = self.min
+		else:
+			if x == self.min:
+				first_cluster = self.summary.minimum()
+				x = self.index(first_cluster,self.cluster[first_cluster].minimum())
+				x = Node(x,self.get(x))
+				self.min = x
+			self.cluster[self.high(x)].delete(self.low(x))
+			if self.cluster[self.high(x)].minimum() == None:
+				self.summary.delete(self.high(x))
+				if x == self.max:
+					summary_max = self.summary.maximum()
+					if summary_max == None:
+						self.max = self.min
+					else:
+						self.max = self.index(summary_max,self.cluster[summary_max].maximum())
+						self.max = Node(self.max,self.get(self.max))
+			else:
+				if x == self.max:
+					self.max = self.index(self.high(x),self.cluster[self.high(x)].maximum())
+					self.max = Node(self.max,self.get(self.max))
