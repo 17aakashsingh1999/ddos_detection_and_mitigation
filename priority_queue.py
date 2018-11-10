@@ -1,16 +1,27 @@
 from van_emde_sat import *
+import threading
+
+def synchronized(func):
+    func.__lock__ = threading.Lock()
+    def synced_func(*args, **kws):
+        with func.__lock__:
+            return func(*args, **kws)
+    return synced_func
+
 
 class PriorityQueue:
 	def __init__(self,u=2**20):
 		self.u = u
 		self.veb = VanEmdeTreeSat(u)
 
+	@synchronized
 	def insert(self,priority,data):
 		if priority < 0 or priority >= self.u:
 			pass
 		else:
 			self.veb.put(priority,data)
 
+	@synchronized
 	def extract_max(self):
 		if self.veb.minimum() != None:
 			m = int(self.veb.maximum())
@@ -20,6 +31,7 @@ class PriorityQueue:
 		else:
 			return None
 
+	@synchronized
 	def extract_min(self):
 		if self.veb.minimum() != None:
 			m = int(self.veb.minimum())
