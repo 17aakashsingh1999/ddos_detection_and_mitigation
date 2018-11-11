@@ -13,6 +13,7 @@ class PriorityQueue:
 	def __init__(self,u=2**20):
 		self.u = u
 		self.veb = VanEmdeTreeSat(u)
+		self.veb.init_sat()
 
 	@synchronized
 	def insert(self,priority,data):
