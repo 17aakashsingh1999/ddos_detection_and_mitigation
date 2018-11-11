@@ -86,7 +86,7 @@ def service_request():
 
 			
 		if e == None: 
-			print("Nothing to process")
+			#print("Nothing to process")
 			sleep(0.2)
 			continue
 		service(e)
