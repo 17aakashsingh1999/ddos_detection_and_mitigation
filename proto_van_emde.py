@@ -2,8 +2,8 @@ def u22k(u):
 	k = 0
 	while True:
 		v = 2 ** (2 ** k)
-		if k >= u:
-			return k
+		if v >= u:
+			return v
 		k += 1
 
 def sqrt(u):
