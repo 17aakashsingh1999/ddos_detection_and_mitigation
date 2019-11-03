@@ -1,6 +1,9 @@
 from van_emde import *
 
 class VanEmdeTreeSat(VanEmdeTree):
+	def __init__(self, u):
+		super().__init__(u)
+
 	def init_sat(self):
 		self.satellite_data = [None] * self.u
 

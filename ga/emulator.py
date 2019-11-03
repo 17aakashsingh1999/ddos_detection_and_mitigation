@@ -1,14 +1,15 @@
 from diff_demo import *
 from threading import Thread
 
-no_of_regular_users = 1000
-regular_user_freq = 0.2
+no_of_regular_users = 100
+regular_user_freq = 0.1
 no_of_attackers = 10
-attacker_freq = 1
+attacker_freq = 10
 
 def emulator(vhm=0):
 
 	set_vhm(vhm)
+	setup_demo()
 
 	regular_users = []
 	for i in range(no_of_regular_users):
@@ -20,13 +21,13 @@ def emulator(vhm=0):
 	server = Thread(target=service_request,args=[])
 	# traffic_ctrl = Thread(target=traffic_controller,args=[])
 
-	
+	for t in attackers:
+		t.start()
 
 	for t in regular_users:
 		t.start()
 
-	for t in attackers:
-		t.start()
+	
 	
 	server.start()
 	# traffic_ctrl.start()
@@ -45,7 +46,7 @@ def emulator(vhm=0):
 
 
 if __name__ == "__main__":
-	emulator(5)
+	emulator(0.5)
 
 
 

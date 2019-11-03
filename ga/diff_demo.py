@@ -5,16 +5,17 @@ from random import random
 from van_emde_sat import VanEmdeTreeSat
 from sync import synchronized
 
-vhm = 5
+vhm = 0
+u = 2**13
 
 start_time = time()
 
-serviced_a_count = 0
-serviced_r_count = 0
-sample_count = 2000
+serviced_a_count = None
+serviced_r_count = None
+sample_count = None
 
-a_count = 0
-r_count = 0
+a_count = None
+r_count = None
 
 @synchronized
 def test_sample(address=-1):
@@ -24,12 +25,7 @@ def test_sample(address=-1):
 			return True
 		else:
 			return False
-	# if address < 2000:
-	# 	serviced_r_count += 1
-	# else:
-	# 	serviced_a_count += 1
-
-	# return (serviced_a_count + serviced_r_count < sample_count)
+	
 	if serviced_a_count + serviced_r_count < sample_count:
 		if address < 2000:
 			serviced_r_count += 1
@@ -66,11 +62,32 @@ def log_req_data(address):
 		a_count +=1
 
 
-db = VanEmdeTreeSat(2**20)
-db.init_sat()
+db = None
+# db.init_sat()
 
-low_priority_queue = PriorityQueue()
-high_priority_queue = PriorityQueue()
+low_priority_queue = None
+high_priority_queue = None
+
+def setup_demo():
+	global u, start_time, serviced_a_count, serviced_r_count, sample_count, \
+		a_count, r_count, db, low_priority_queue, high_priority_queue
+	u = 2**13
+
+	start_time = time()
+
+	serviced_a_count = 0
+	serviced_r_count = 0
+	sample_count = 1000
+
+	a_count = 0
+	r_count = 0
+	db = VanEmdeTreeSat(u)
+	db.init_sat()
+
+	low_priority_queue = PriorityQueue(u)
+	high_priority_queue = PriorityQueue(u)
+	
+
 def test_db(address):
 	if db.member(address): 
 		#print("ismem")
@@ -87,7 +104,7 @@ def test_db(address):
 
 
 def priority(t):
-	return int(2**20 * t/10)
+	return int(u * t/10)
 
 
 def listener(address):
