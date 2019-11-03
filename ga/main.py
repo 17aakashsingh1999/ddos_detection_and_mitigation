@@ -14,7 +14,7 @@ def genetic_algorithm():
     max_mutations = 2
 
     # initialize close to 0 so that initiallly all requests are serviced
-    population = [random()/10 - 0.05 for _ in range(population_size)]
+    population = [random() - 0.5 for _ in range(population_size)]
 
 
     while True:

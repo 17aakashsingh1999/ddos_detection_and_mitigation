@@ -1,7 +1,7 @@
 from diff_demo import *
 from threading import Thread
 
-no_of_regular_users = 100
+no_of_regular_users = 1000
 regular_user_freq = 0.1
 no_of_attackers = 10
 attacker_freq = 10
