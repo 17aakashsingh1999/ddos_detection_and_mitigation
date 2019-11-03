@@ -1,10 +1,12 @@
 from diff_demo import *
 from threading import Thread
+from random import random
 
 no_of_regular_users = 1000
 regular_user_freq = 0.1
 no_of_attackers = 10
 attacker_freq = 10
+
 
 def emulator(vhm=0):
 
@@ -13,10 +15,10 @@ def emulator(vhm=0):
 
 	regular_users = []
 	for i in range(no_of_regular_users):
-		regular_users.append(Thread(target=client,args=[regular_user_freq,i]))
+		regular_users.append(Thread(target=client,args=[regular_user_freq, i]))
 	attackers = []
 	for i in range(no_of_attackers):
-		attackers.append(Thread(target=client,args=[attacker_freq,i+2000]))
+		attackers.append(Thread(target=client,args=[(i + 1) * attacker_freq,i+2000]))
 
 	server = Thread(target=service_request,args=[])
 	# traffic_ctrl = Thread(target=traffic_controller,args=[])
