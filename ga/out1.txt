@@ -1,0 +1,277 @@
+population [0.2415168768396737, -0.024592828539080958, -0.12250291733193841, 0.08820113646232941, -0.21657609253945487]
+emulator finished 0.2415168768396737 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished -0.024592828539080958 {'serviced': {'attacker': 410, 'regular': 590}, 'total': {'attacker': 1009, 'regular': 631}}
+emulator finished -0.12250291733193841 {'serviced': {'attacker': 407, 'regular': 593}, 'total': {'attacker': 1009, 'regular': 685}}
+emulator finished 0.08820113646232941 {'serviced': {'attacker': 49, 'regular': 951}, 'total': {'attacker': 1009, 'regular': 965}}
+emulator finished -0.21657609253945487 {'serviced': {'attacker': 412, 'regular': 588}, 'total': {'attacker': 1009, 'regular': 788}}
+max fitness 31.923089468019178
+vhm corresponding to max population 0.2415168768396737
+population [0.2415168768396737, 0.2415168768396737, 0.08820113646232941, 0.08820113646232941, 0.09931590012413608]
+emulator finished 0.2415168768396737 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 0.2415168768396737 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 992}}
+emulator finished 0.08820113646232941 {'serviced': {'attacker': 53, 'regular': 947}, 'total': {'attacker': 1009, 'regular': 975}}
+emulator finished 0.08820113646232941 {'serviced': {'attacker': 50, 'regular': 950}, 'total': {'attacker': 1009, 'regular': 984}}
+emulator finished 0.09931590012413608 {'serviced': {'attacker': 46, 'regular': 954}, 'total': {'attacker': 1009, 'regular': 978}}
+max fitness 32.8881839543471
+vhm corresponding to max population 0.2415168768396737
+population [0.3740021353473326, 0.449856471469012, 0.08820113646232941, 0.2415168768396737, 0.2415168768396737]
+emulator finished 0.3740021353473326 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 0.449856471469012 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 0.08820113646232941 {'serviced': {'attacker': 50, 'regular': 950}, 'total': {'attacker': 1009, 'regular': 972}}
+emulator finished 0.2415168768396737 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 996}}
+emulator finished 0.2415168768396737 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 995}}
+max fitness 33.02119986518369
+vhm corresponding to max population 0.449856471469012
+population [0.08820113646232941, 0.08820113646232941, 0.3740021353473326, 0.2415168768396737, 0.08820113646232941]
+emulator finished 0.08820113646232941 {'serviced': {'attacker': 46, 'regular': 954}, 'total': {'attacker': 1009, 'regular': 975}}
+emulator finished 0.08820113646232941 {'serviced': {'attacker': 49, 'regular': 951}, 'total': {'attacker': 1009, 'regular': 974}}
+emulator finished 0.3740021353473326 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 992}}
+emulator finished 0.2415168768396737 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 994}}
+emulator finished 0.08820113646232941 {'serviced': {'attacker': 49, 'regular': 951}, 'total': {'attacker': 1009, 'regular': 969}}
+max fitness 32.8881839543471
+vhm corresponding to max population 0.3740021353473326
+population [0.17409541371243403, 0.08820113646232941, 0.08820113646232941, 0.2415168768396737, 0.3740021353473326]
+emulator finished 0.17409541371243403 {'serviced': {'attacker': 31, 'regular': 969}, 'total': {'attacker': 1009, 'regular': 994}}
+emulator finished 0.08820113646232941 {'serviced': {'attacker': 47, 'regular': 953}, 'total': {'attacker': 1009, 'regular': 967}}
+emulator finished 0.08820113646232941 {'serviced': {'attacker': 51, 'regular': 949}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 0.2415168768396737 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 994}}
+emulator finished 0.3740021353473326 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 989}}
+max fitness 32.98784511784512
+vhm corresponding to max population 0.3740021353473326
+population [0.2415168768396737, 0.20780614527605387, 0.17409541371243403, 0.2415168768396737, 0.17409541371243403]
+emulator finished 0.2415168768396737 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 987}}
+emulator finished 0.20780614527605387 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 994}}
+emulator finished 0.17409541371243403 {'serviced': {'attacker': 32, 'regular': 968}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 0.2415168768396737 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 992}}
+emulator finished 0.17409541371243403 {'serviced': {'attacker': 32, 'regular': 968}, 'total': {'attacker': 1009, 'regular': 991}}
+max fitness 32.8881839543471
+vhm corresponding to max population 0.2415168768396737
+population [0.2415168768396737, 0.20780614527605387, 0.17409541371243403, 0.20780614527605387, 0.17409541371243403]
+emulator finished 0.2415168768396737 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 994}}
+emulator finished 0.20780614527605387 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 978}}
+emulator finished 0.17409541371243403 {'serviced': {'attacker': 32, 'regular': 968}, 'total': {'attacker': 1009, 'regular': 996}}
+emulator finished 0.20780614527605387 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 0.17409541371243403 {'serviced': {'attacker': 33, 'regular': 967}, 'total': {'attacker': 1009, 'regular': 986}}
+max fitness 32.24916801212561
+vhm corresponding to max population 0.20780614527605387
+population [0.3700944194159369, 0.20780614527605387, 0.2246615110578638, 0.3478566599109267, 0.2415168768396737]
+emulator finished 0.3700944194159369 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 0.20780614527605387 {'serviced': {'attacker': 28, 'regular': 972}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 0.2246615110578638 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 0.3478566599109267 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 1000}}
+emulator finished 0.2415168768396737 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 993}}
+max fitness 34.126030829186824
+vhm corresponding to max population 0.20780614527605387
+population [0.4379561508614326, 0.20780614527605387, 0.2415168768396737, 0.3478566599109267, 0.3372916296759162]
+emulator finished 0.4379561508614326 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 0.20780614527605387 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 1000}}
+emulator finished 0.2415168768396737 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 994}}
+emulator finished 0.3478566599109267 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 984}}
+emulator finished 0.3372916296759162 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 985}}
+max fitness 32.8220770519263
+vhm corresponding to max population 0.2415168768396737
+population [0.3478566599109267, 0.4379561508614326, 0.4379561508614326, 0.3372916296759162, 0.3372916296759162]
+emulator finished 0.3478566599109267 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 0.4379561508614326 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 983}}
+emulator finished 0.4379561508614326 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 0.3372916296759162 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 0.3372916296759162 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 983}}
+max fitness 33.02119986518369
+vhm corresponding to max population 0.4379561508614326
+population [0.3478566599109267, 0.39669328079867167, 0.4379561508614326, 0.9585650617887729, 0.3372916296759162]
+emulator finished 0.3478566599109267 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 992}}
+emulator finished 0.39669328079867167 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 0.4379561508614326 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 985}}
+emulator finished 0.9585650617887729 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 0.3372916296759162 {'serviced': {'attacker': 28, 'regular': 972}, 'total': {'attacker': 1009, 'regular': 990}}
+max fitness 34.126030829186824
+vhm corresponding to max population 0.3372916296759162
+population [0.9585650617887729, 0.5342686093896754, 0.4379561508614326, 0.4379561508614326, 0.3372916296759162]
+emulator finished 0.9585650617887729 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 0.5342686093896754 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 994}}
+emulator finished 0.4379561508614326 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 1000}}
+emulator finished 0.4379561508614326 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 0.3372916296759162 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 987}}
+max fitness 32.8220770519263
+vhm corresponding to max population 0.5342686093896754
+population [0.5342686093896754, 0.4379561508614326, 0.5342686093896754, 0.5342686093896754, 0.4379561508614326]
+emulator finished 0.5342686093896754 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 992}}
+emulator finished 0.4379561508614326 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 987}}
+emulator finished 0.5342686093896754 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 997}}
+emulator finished 0.5342686093896754 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 987}}
+emulator finished 0.4379561508614326 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 993}}
+max fitness 32.855097250167674
+vhm corresponding to max population 0.4379561508614326
+population [0.5342686093896754, 1.545716399206773, 0.48611238012555397, 0.4379561508614326, 0.5342686093896754]
+emulator finished 0.5342686093896754 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 987}}
+emulator finished 1.545716399206773 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 995}}
+emulator finished 0.4379561508614326 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 0.5342686093896754 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 987}}
+max fitness 33.05462213225371
+vhm corresponding to max population 0.5342686093896754
+population [0.48611238012555397, 0.48611238012555397, 0.5342686093896754, 2.7318891172484774, 0.5342686093896754]
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 986}}
+emulator finished 0.5342686093896754 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 2.7318891172484774 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 0.5342686093896754 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+max fitness 31.98777657940321
+vhm corresponding to max population 0.48611238012555397
+population [0.48611238012555397, 4.03849418956346, 1.6090007486870157, 2.7318891172484774, 1.0858689774369514]
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 4.03849418956346 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 986}}
+emulator finished 1.6090007486870157 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 2.7318891172484774 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 1.0858689774369514 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 996}}
+max fitness 31.98777657940321
+vhm corresponding to max population 4.03849418956346
+population [0.48611238012555397, 2.1704449329677464, 2.7318891172484774, 1.6090007486870157, 1.0858689774369514]
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 992}}
+emulator finished 2.1704449329677464 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 2.7318891172484774 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 992}}
+emulator finished 1.6090007486870157 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 1.0858689774369514 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 975}}
+max fitness 32.8881839543471
+vhm corresponding to max population 2.7318891172484774
+population [0.7859906787812527, 0.48611238012555397, 6.414481559978291, 0.48611238012555397, 2.1704449329677464]
+emulator finished 0.7859906787812527 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 6.414481559978291 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 2.1704449329677464 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+max fitness 32.95455768583922
+vhm corresponding to max population 0.48611238012555397
+population [0.48611238012555397, 2.1704449329677464, 2.1704449329677464, 0.48611238012555397, 0.48611238012555397]
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 2.1704449329677464 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 2.1704449329677464 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 992}}
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 986}}
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 996}}
+max fitness 33.08811212428233
+vhm corresponding to max population 0.48611238012555397
+population [1.3282786565466502, 0.48611238012555397, 0.48611238012555397, 1.3282786565466502, 2.1704449329677464]
+emulator finished 1.3282786565466502 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 1000}}
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 1.3282786565466502 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 995}}
+emulator finished 2.1704449329677464 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 989}}
+max fitness 32.98784511784512
+vhm corresponding to max population 2.1704449329677464
+population [1.3282786565466502, 2.1704449329677464, 1.7493617947571982, 1.3282786565466502, 0.48611238012555397]
+emulator finished 1.3282786565466502 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 2.1704449329677464 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 1.7493617947571982 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 1.3282786565466502 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 988}}
+max fitness 33.02119986518369
+vhm corresponding to max population 2.1704449329677464
+population [2.1704449329677464, 0.48611238012555397, 1.3282786565466502, 0.48611238012555397, 1.7493617947571982]
+emulator finished 2.1704449329677464 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 997}}
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 1.3282786565466502 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 992}}
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 1.7493617947571982 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+max fitness 32.72341349365397
+vhm corresponding to max population 2.1704449329677464
+population [0.48611238012555397, 1.3282786565466502, 1.939430183987931, 2.1704449329677464, 5.431873067237687]
+emulator finished 0.48611238012555397 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 994}}
+emulator finished 1.3282786565466502 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 985}}
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 2.1704449329677464 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 5.431873067237687 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 988}}
+max fitness 32.02021854347968
+vhm corresponding to max population 1.3282786565466502
+population [5.431873067237687, 0.8142689400366835, 1.939430183987931, 5.431873067237687, 5.391406067264455]
+emulator finished 5.431873067237687 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 994}}
+emulator finished 5.431873067237687 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 5.391406067264455 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 992}}
+max fitness 31.858663454965658
+vhm corresponding to max population 5.431873067237687
+population [0.8142689400366835, 1.939430183987931, 5.391406067264455, 0.8142689400366835, 5.391406067264455]
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 986}}
+emulator finished 1.939430183987931 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 5.391406067264455 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 1000}}
+emulator finished 5.391406067264455 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+max fitness 33.02119986518369
+vhm corresponding to max population 1.939430183987931
+population [1.939430183987931, 1.939430183987931, 0.8142689400366835, 1.939430183987931, 0.8142689400366835]
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 999}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 1.939430183987931 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 992}}
+max fitness 32.95455768583922
+vhm corresponding to max population 0.8142689400366835
+population [1.939430183987931, 1.939430183987931, 0.8142689400366835, 0.8142689400366835, 0.8142689400366835]
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 980}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 987}}
+max fitness 32.18342047285522
+vhm corresponding to max population 0.8142689400366835
+population [1.939430183987931, 0.8142689400366835, 1.939430183987931, 0.8142689400366835, 0.8142689400366835]
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 992}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 28, 'regular': 972}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 991}}
+max fitness 34.02303476028585
+vhm corresponding to max population 0.8142689400366835
+population [1.939430183987931, 0.8142689400366835, 0.8142689400366835, 1.939430183987931, 0.8142689400366835]
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 992}}
+max fitness 32.98784511784512
+vhm corresponding to max population 0.8142689400366835
+population [3.623825359830518, 1.3676326538750354, 0.8142689400366835, 1.939430183987931, 0.8142689400366835]
+emulator finished 3.623825359830518 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 992}}
+emulator finished 1.3676326538750354 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 984}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 995}}
+max fitness 33.15529610829103
+vhm corresponding to max population 1.3676326538750354
+population [3.623825359830518, 3.623825359830518, 3.623825359830518, 0.8142689400366835, 1.939430183987931]
+emulator finished 3.623825359830518 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 3.623825359830518 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 997}}
+emulator finished 3.623825359830518 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 995}}
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+max fitness 31.762510547153887
+vhm corresponding to max population 3.623825359830518
+population [0.8142689400366835, 1.939430183987931, 1.3768495620123073, 1.3768495620123073, 3.623825359830518]
+emulator finished 0.8142689400366835 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 1.3768495620123073 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 1.3768495620123073 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 3.623825359830518 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 986}}
+max fitness 31.98777657940321
+vhm corresponding to max population 3.623825359830518
+population [3.623825359830518, 1.939430183987931, 2.219047149933601, 1.3768495620123073, 2.9987375196828157]
+emulator finished 3.623825359830518 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+emulator finished 1.939430183987931 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 2.219047149933601 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 990}}
+emulator finished 1.3768495620123073 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 993}}
+emulator finished 2.9987375196828157 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 986}}
+max fitness 33.08811212428233
+vhm corresponding to max population 2.9987375196828157
+population [2.9987375196828157, 7.815947120815277, 2.219047149933601, 2.6088923348082083, 2.4139697423709046]
+emulator finished 2.9987375196828157 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 995}}
+emulator finished 7.815947120815277 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 983}}
+emulator finished 2.219047149933601 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 2.6088923348082083 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 989}}
+emulator finished 2.4139697423709046 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 990}}
+max fitness 32.98784511784512
+vhm corresponding to max population 2.6088923348082083
+population [5.557427282148477, 2.4139697423709046, 2.4139697423709046, 2.9987375196828157, 4.622822554030952]
+emulator finished 5.557427282148477 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 988}}
+emulator finished 2.4139697423709046 {'serviced': {'attacker': 29, 'regular': 971}, 'total': {'attacker': 1009, 'regular': 992}}
+emulator finished 2.4139697423709046 {'serviced': {'attacker': 30, 'regular': 970}, 'total': {'attacker': 1009, 'regular': 991}}
+
